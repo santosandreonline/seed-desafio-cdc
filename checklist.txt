@@ -1,0 +1,4 @@
+
+-
+
+- verificar nomenclatura de endpoint paths para apis rest
