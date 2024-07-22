@@ -11,13 +11,14 @@ public class CadastrarNovoAutorDTO {
     @NotNull(message = "Campo nome não pode ser nulo")
     @NotBlank(message = "Campo nome não pode ser vazio")
     private String nome;
-    @NotNull
-    @NotBlank
-    @Email
+
+    @NotNull(message = "Campo email não pode ser nulo")
+    @NotBlank(message = "Campo email não pode ser vazio")
+    @Email(message = "Formato inválido no campo email")
     private String email;
-    @NotNull
-    @NotBlank
-    @Size(min = 1, max = 400)
+
+    @NotNull(message = "Campo descrição não pode ser nulo")
+    @Size(min = 1, max = 400, message = "Campo descrição deve conter de 1 a 400 caracters")
     private String descricao;
 
     @Override

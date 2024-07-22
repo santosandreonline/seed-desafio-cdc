@@ -5,5 +5,7 @@ ok - criar dto para cadastro de novo autor com nome, email e descrição
 - validar campos do dto de novo autor na entrada do endpoint de cadastro
 - criar entidade com para autor autor com nome, email, descrição e data/hora da criação
 - configurar conexão com o h2
+- fazer testes @NotNull @NotEmpty
+- verificar descrição passando de 400 com caracter especial 'ç'
 
 - verificar nomenclatura de endpoint paths para apis rest
