@@ -1,4 +1,9 @@
 
--
+ok - criar controller com endpoint para cadastro de novo autor
+ok - retornar status 200 em caso de sucesso no endpoint criação de novo autor
+ok - criar dto para cadastro de novo autor com nome, email e descrição
+- validar campos do dto de novo autor na entrada do endpoint de cadastro
+- criar entidade com para autor autor com nome, email, descrição e data/hora da criação
+- configurar conexão com o h2
 
 - verificar nomenclatura de endpoint paths para apis rest
