@@ -6,7 +6,7 @@ import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;
 import jakarta.validation.constraints.Size;
 
-public class CadastrarNovoAutorDTO {
+public class CadastrarNovoAutorEntradaDTO {
 
     @NotNull(message = "Campo nome não pode ser nulo")
     @NotBlank(message = "Campo nome não pode ser vazio")
